@@ -1,0 +1,81 @@
+body {
+    background-color: lavender;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    border: 3px solid black;
+    background-color:azure;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    
+    justify-content: baseline;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+section {
+    background-color:lavenderblush;
+    margin: 1px;
+    border-style: double;
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: medium;
+}
+
+h5 {
+    font-style: italic;
+}
+
+#container3 {
+    align-items: center;
+    align-content: center;
+    column-width: 130px;
+    column-gap: 20px;
+    border: 1px solid black;
+    border-width: 10px;
+    padding:10px; 
+    margin: 30px;
+   
+      
+    
+    /* Unsure of how to align "currently reading"
+    section to the center */
+
+}
+
+.box {
+    border: 2px solid;
+    background-color: aquamarine;
+    margin: 1px;
+}
+
+.box2 {
+    background-color:black;
+    color:aquamarine;
+    border: 10px;
+}
+
+#container2 {
+    display: flex;
+    column-gap: 100px;
+    text-decoration: underline;
+    padding: 10px
+}
+
+
+
+
+
+
